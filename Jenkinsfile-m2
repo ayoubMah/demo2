@@ -1,0 +1,10 @@
+pipeline {
+    agent {label "linux"}
+    stages {
+        stage('java-hello-worldddd') {
+            steps {
+                echo "java-hello-worldHHHH"
+            }
+        }
+    }
+}
